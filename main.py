@@ -141,6 +141,7 @@ class Page(tk.Frame):
         fps = self.vs.get(cv2.CAP_PROP_FPS)
         path = "highway.mp4"
         img0 = frame
+        print("_________________0000000000000000")
         if grabbed == True:
             img = letterbox(img0, new_shape=640)[0]
             # Convert
@@ -276,7 +277,7 @@ class Page(tk.Frame):
                 print("%sDone. (%.3fs)" % (s, t2 - t1))
 
         else:
-            root.destroy()
+            root.quit()
             print(
                 "***********************************************FINSHED***********************************************"
             )
