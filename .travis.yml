@@ -6,3 +6,10 @@ addons:
     update: true
 script:
   - python main.py
+ deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 238f10094410adb897b059a76efbad2a4da248ba  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: main
