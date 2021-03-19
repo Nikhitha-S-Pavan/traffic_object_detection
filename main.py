@@ -95,7 +95,7 @@ class Page(tk.Frame):
 
         # Load model
         self.model = torch.hub.load("ultralytics/yolov5", 'yolov5s', pretrained=True)
-        self.source = "C:\\Users\\NIU2KOR\\Desktop\\learning\\tkinter\\highway.mp4"
+        self.source = "highway.mp4"
         # Set Dataloader
         vid_path, vid_writer = None, None
 
