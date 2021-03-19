@@ -141,7 +141,6 @@ class Page(tk.Frame):
         fps = self.vs.get(cv2.CAP_PROP_FPS)
         path = "highway.mp4"
         img0 = frame
-        print("0000000000000000")
         if grabbed == True:
             img = letterbox(img0, new_shape=640)[0]
             # Convert
