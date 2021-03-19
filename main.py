@@ -64,7 +64,7 @@ class Page(tk.Frame):
         # Open camera source
         # self.vid = oneCameraCapture.cameraCapture()
         self.vs = cv2.VideoCapture(
-            "C:\\Users\\NIU2KOR\\Desktop\\learning\\tkinter\\highway.mp4"
+            "highway.mp4"
         )
         # Create a canvas that will fit the camera source
         self.canvas = tk.Canvas(window, width=1000, height=600)
@@ -109,7 +109,7 @@ class Page(tk.Frame):
 
         # Load model
         self.model = torch.hub.load("ultralytics/yolov5", "yolov5s", pretrained=True)
-        self.source = "C:\\Users\\NIU2KOR\\Desktop\\learning\\tkinter\\highway.mp4"
+        self.source = "highway.mp4"
         # Set Dataloader
         vid_path, vid_writer = None, None
 
@@ -141,7 +141,7 @@ class Page(tk.Frame):
         fps = self.vs.get(cv2.CAP_PROP_FPS)
         path = "highway.mp4"
         img0 = frame
-        print("_________________0000000000000000")
+        print("0000000000000000")
         if grabbed == True:
             img = letterbox(img0, new_shape=640)[0]
             # Convert
