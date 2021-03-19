@@ -126,7 +126,7 @@ class Page(tk.Frame):
         img = torch.zeros((1, 3, self.imgsz, self.imgsz), device=self.device)  # init img
         (grabbed, frame) = self.vs.read()
         fps = self.vs.get(cv2.CAP_PROP_FPS)
-        path ="C:\\Users\\NIU2KOR\\Desktop\\learning\\tkinter\\highway.mp4"
+        path ="highway.mp4"
         img0 = frame
         img = letterbox(img0, new_shape=640)[0]
         # Convert
