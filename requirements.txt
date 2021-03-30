@@ -1,6 +1,7 @@
 # pip install -U -r requirements.txt
 Cython
 gr
+sklearn
 matplotlib>=3.2.2
 numpy>=1.18.5
 opencv-python==4.3.0.36

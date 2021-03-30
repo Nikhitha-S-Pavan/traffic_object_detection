@@ -1,0 +1,18 @@
+language: python
+git:
+  submodules:
+    false
+before_install:
+  - echo -e "machine bitbucket.org\n  login Nikhitha-S-Pavan\n  password $NIKKIacharya21*" >~/.netrc
+  - git submodule update --init --recursive
+before_install:
+  - sudo apt-get -y install libxml2-dev
+  - pip install pyinstaller
+addons:
+  apt:
+    update: true
+script:
+  - python main.py
+  #- pyinstaller --noconfirm --onedir --console --add-binary yolov5:yolov5 --add-binary deep_sort_pytorch:deep_sort_pytorch --add-data traffic3.mp4:. --add-data ckpt.t7:.  main.py
+
+
