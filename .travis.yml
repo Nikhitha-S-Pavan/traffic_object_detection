@@ -14,5 +14,3 @@ addons:
 script:
   - python main.py
   #- pyinstaller --noconfirm --onedir --console --add-binary yolov5:yolov5 --add-binary deep_sort_pytorch:deep_sort_pytorch --add-data traffic3.mp4:. --add-data ckpt.t7:.  main.py
-
-

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="22030999-45ff-4a97-b3fa-d597984db643" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="22030999-45ff-4a97-b3fa-d597984db643" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mask-detection/mask_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../object_detection/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../object_detection/object_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.sh" beforeDir="false" />
+    </list>
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -25,6 +43,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,6 +57,12 @@
         <entry file="file://$PROJECT_DIR$/bitbucket-pipelines.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitbucket-pipelines.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
               <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
@@ -199,18 +224,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="traffic_object_detection" type="b2602c69:ProjectViewProjectNode" />
               <item name="traffic_object_detection" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="tod_ineuron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tod_ineuron" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,6 +607,7 @@
     <entry file="file://$PROJECT_DIR$/new.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="153">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
@@ -580,6 +618,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+=======
+        <state relative-caret-position="119">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+>>>>>>> 737fd94e6c3a088757920413a92cc64cf2c84f1c
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
